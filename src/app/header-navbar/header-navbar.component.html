@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <div class="navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <b>Ranjith :)</b>
+        </ul>
+        <form class="d-flex">
+          <!-- <button type="button" (click)="toggleDarkTheme()">{{isDarkMode ? 'Light Mode' : 'Dark Mode'}}</button> -->
+          <button type="button" (click)="toggleDarkTheme()"><i *ngIf="!isDarkMode" class="bi bi-moon-fill"></i><i *ngIf="isDarkMode" class="bi bi-brightness-high"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
