@@ -1,4 +1,4 @@
-#intro,#tech-skills {
+#intro{
   padding:10% 0 0 0 ;
 }
 
@@ -8,32 +8,53 @@
   color: white;
 }
 h1 {
-  text-align: left;
-  font-size: 6vW;
+  text-align: center;
+  font-size: 12vW;
 }
 h1,h4,h5,.my-skill{
   font-style: italic;
 }
 h4 {
-  text-align: left;
-  font-size: 2vW;
+  text-align: center;
+  font-size: 6vW;
 }
 h5 {
-  font-size:1vw;
-  text-align: left;
-}
-.border-radius-tech-div{
-  padding: 1px;
-  border-radius: 50px 20px;
+  font-size:3vw;
+  text-align: center;
 }
 .hero-skills{
   padding:8% 0 0 0 ;
 }
 #my-skill {
-  font-size:3vw;
+  font-size:7vw;
 }
 p{
-  font-size:1vw;
+  font-size:3vw;
+}
+@media(min-width: 400px) {
+  p{
+    font-size: 1vw;
+  }
+  h1 {
+    font-size: 6vw;
+  }
+  h4 {
+    font-size: 2vw;;
+  }
+  h5{
+    font-size: 1vw;
+  }
+  #my-skill {
+    font-size:3vw;
+  }
+}
+@media(max-width: 400px) {
+  h3{
+    font-size: 8vw;
+  }
+  .about-me{
+    font-size: 5vw;
+  }
 }
 span {
   font-size:2vw;
@@ -47,4 +68,9 @@ span {
 h3 {
   font-size:3vw;
   font-family: 'Times New Roman', Times, serif;
+}
+.skill-content {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
 }
