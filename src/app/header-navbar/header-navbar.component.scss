@@ -1,3 +1,14 @@
 a,button {
     font-size:1vw;
 }
+img{
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+@media(min-width: 400px) {
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
